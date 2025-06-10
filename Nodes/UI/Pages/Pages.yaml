@@ -560,6 +560,32 @@ Children:
         - Name: Severity
           Type: PropertyType
           DataType: UInt16
+  - Name: Image1
+    Type: Image
+    Children:
+    - Name: Path
+      Type: BaseDataVariableType
+      DataType: ResourceUri
+      Value: "ns=32;%PROJECTDIR%/logo-ISI-grande.png"
+    - Name: TopMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+    - Name: LeftMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 890.0
+    - Name: Height
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 70.0
+    - Name: Width
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 380.0
 - Name: Data
   Id: g=d462975a46d1a5e2756855ed8ecfd595
   Supertype: Page
@@ -747,6 +773,12 @@ Children:
       Type: BaseDataVariableType
       DataType: SortOrderEnum
       Value: 1
+  - Name: Image1
+    Type: Image
+    Children:
+    - Name: Path
+      Type: BaseDataVariableType
+      DataType: ResourceUri
 - Name: Trend_RT
   Id: g=2f1d32b76fb2d31ecb7c81d87e47389a
   Supertype: Page
@@ -861,6 +893,12 @@ Children:
       DataType: Size
       ModellingRule: Optional
       Value: 130.0
+  - Name: Image1
+    Type: Image
+    Children:
+    - Name: Path
+      Type: BaseDataVariableType
+      DataType: ResourceUri
 - Name: Trend_HT
   Id: g=efdd3ef3d7d38884142dc7e7c8912230
   Supertype: Page
@@ -1157,6 +1195,12 @@ Children:
       DataType: Size
       ModellingRule: Optional
       Value: 1220.0
+  - Name: Image1
+    Type: Image
+    Children:
+    - Name: Path
+      Type: BaseDataVariableType
+      DataType: ResourceUri
 - Name: ViewPDF
   Id: g=ba570bb39ce6faa312a2d5e7cdc88560
   Supertype: Page
@@ -1192,6 +1236,12 @@ Children:
       DataType: Size
       ModellingRule: Optional
       Value: 89.0
+  - Name: Image1
+    Type: Image
+    Children:
+    - Name: Path
+      Type: BaseDataVariableType
+      DataType: ResourceUri
 - Name: Recipes
   Id: g=9dac8c51a099f51228a925680bb41810
   Supertype: Screen
